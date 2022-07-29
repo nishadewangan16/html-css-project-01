@@ -1,0 +1,195 @@
+body {
+  margin: 0 5%;
+  font-family: "Poppins";
+}
+
+.list-item {
+  font-family: "Orbitron";
+  font-weight: 600;
+}
+
+section {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.hero-container > span {
+  position: absolute;
+}
+
+.hero-container > div {
+  flex: 1;
+}
+
+.hero-container > div:nth-child(4) > img {
+  width: 460px;
+}
+
+.square {
+  bottom: -65px;
+  left: 125px;
+  z-index: -1;
+}
+.star {
+  right: 0;
+}
+
+.globe {
+  left: 50%;
+}
+
+.hero-container-right {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-heading {
+  font-weight: 800;
+  font-size: 3rem;
+  font-family: "Orbitron";
+}
+
+.hero-description {
+  text-align: center;
+  color: #767676;
+  font-family: "Poppins";
+  font-style: normal;
+}
+.contact-heading {
+  text-align: center;
+  color: #767676;
+  font-weight: 400;
+  font-size: 16px;
+}
+.navbar-container {
+  display: flex;
+}
+
+.navbar-container > div:nth-child(1) {
+  flex: 0.5;
+}
+.navbar-container > div:nth-child(2) {
+  flex: 1;
+}
+
+.hero-container {
+  display: flex;
+  position: relative;
+  height: 100%;
+  padding-top: 50px;
+}
+.globe {
+  top: 12px;
+}
+.globe > img {
+  width: 70%;
+}
+
+.star > img {
+  width: 70%;
+}
+
+.logo {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+}
+.logo img {
+  width: 88px;
+  height: 30px;
+}
+.menubar {
+  display: flex;
+  flex: 2;
+}
+.search-icon {
+  display: flex;
+}
+.menubar .list {
+  flex-direction: row;
+  flex: 2;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0;
+}
+
+/* .menubar .list .list-item {
+} */
+
+.button-group {
+  display: flex;
+  flex: 0.5;
+  justify-content: center;
+  align-items: center;
+}
+.nav-button {
+  background: #fff;
+  padding: 2px 40px;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  color: #767676;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  border: 3px solid #000;
+}
+
+.button-join.button-join {
+  background: #000;
+  color: #fff;
+  border: 3px solid #000;
+}
+.hero-container-right div:nth-child(3) {
+  padding: 40px 0;
+}
+.button-email,
+.button-join {
+  background: #fff;
+  padding: 2px 40px;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #767676;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  border: 3px solid #000;
+}
+
+.search-icon svg {
+  width: 18px;
+  height: 22px;
+  padding: 12px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px 20px;
+}
+
+li::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0;
+  top: 5px;
+  background: transparent;
+  transition: all 0.3s;
+}
+
+li:nth-child(1)::after,
+li:hover::after {
+  width: 70%;
+  background: #000;
+}
+
+li:nth-child(1),
+li:hover {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
